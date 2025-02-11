@@ -1,1 +1,791 @@
-<h1> melania </h1> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href=">
+	<link rel="license" href="">
+  </head>
+  <body>
+    <h1>New step Task - 1</h1>
+    <h2>siniestralidad</h2>
+    <p>Codigo Siniestralidad: &lt;&lt;[Codigo Siniestralidad]&gt;&gt;</p>
+    <p>Supervisor: &lt;&lt;[Supervisor]&gt;&gt;</p>
+    <p>Fecha Ocurrencia: &lt;&lt;[Fecha Ocurrencia]&gt;&gt;</p>
+    <p>Hora Ocurrencia: &lt;&lt;[Hora Ocurrencia]&gt;&gt;</p>
+    <p>Tipo Accidente: &lt;&lt;[Tipo Accidente]&gt;&gt;</p>
+    <p>Subtipo: &lt;&lt;[Subtipo]&gt;&gt;</p>
+    <p>Distrito: &lt;&lt;[Distrito]&gt;&gt;</p>
+    <p>Estacion Referencial: &lt;&lt;[Estacion Referencial]&gt;&gt;</p>
+    <p>Coordenadas: &lt;&lt;[Coordenadas]&gt;&gt;</p>
+    <p>Ubicacion: &lt;&lt;[Ubicacion]&gt;&gt;</p>
+    <p>Hechos Accidente: &lt;&lt;[Hechos Accidente]&gt;&gt;</p>
+    <p>Tipo de Ruta: &lt;&lt;[Tipo de Ruta]&gt;&gt;</p>
+    <p>Ruta: &lt;&lt;[Ruta]&gt;&gt;</p>
+    <p>Bus: &lt;&lt;[Bus]&gt;&gt;</p>
+    <p>Servicio: &lt;&lt;[Servicio]&gt;&gt;</p>
+    <p>Sentido: &lt;&lt;[Sentido]&gt;&gt;</p>
+    <p>Estado de Linea: &lt;&lt;[Estado de Linea]&gt;&gt;</p>
+    <p>Velocidad Promedio: &lt;&lt;[Velocidad Promedio]&gt;&gt;</p>
+    <p>Nombre Conductor: &lt;&lt;[Nombre Conductor]&gt;&gt;</p>
+    <p>Antiguedad: &lt;&lt;[Antiguedad]&gt;&gt;</p>
+    <p>Ranking: &lt;&lt;[Ranking]&gt;&gt;</p>
+    <p>Top: &lt;&lt;[Top]&gt;&gt;</p>
+    <p>
+      Grafica del conductor Implicado: &lt;&lt;[Grafica del conductor
+      Implicado]&gt;&gt;
+    </p>
+    <p>Grado: &lt;&lt;[Grado]&gt;&gt;</p>
+    <p>Intervencion Policial: &lt;&lt;[Intervencion Policial]&gt;&gt;</p>
+    <p>Fecha Registro: &lt;&lt;[Fecha Registro]&gt;&gt;</p>
+    <p>Hora Registro: &lt;&lt;[Hora Registro]&gt;&gt;</p>
+    <p>Generar PDF: &lt;&lt;[Generar PDF]&gt;&gt;</p>
+    <p>Ver PDF: &lt;&lt;[Ver PDF]&gt;&gt;</p>
+    <p>evento: &lt;&lt;[evento]&gt;&gt;</p>
+    <p>subtip: &lt;&lt;[subtip]&gt;&gt;</p>
+    <p>distrit: &lt;&lt;[distrit]&gt;&gt;</p>
+    <p>chofer: &lt;&lt;[chofer]&gt;&gt;</p>
+    <p>choferingreso: &lt;&lt;[choferingreso]&gt;&gt;</p>
+    <p>rutas: &lt;&lt;[rutas]&gt;&gt;</p>
+    <p>unidad: &lt;&lt;[unidad]&gt;&gt;</p>
+    <p>placa: &lt;&lt;[placa]&gt;&gt;</p>
+    <p>sentid: &lt;&lt;[sentid]&gt;&gt;</p>
+    <p>tipound: &lt;&lt;[tipound]&gt;&gt;</p>
+    <p>chofernac: &lt;&lt;[chofernac]&gt;&gt;</p>
+    <p>cac: &lt;&lt;[cac]&gt;&gt;</p>
+    <p>dni: &lt;&lt;[dni]&gt;&gt;</p>
+    <p>phone: &lt;&lt;[phone]&gt;&gt;</p>
+    <p>edad: &lt;&lt;[edad]&gt;&gt;</p>
+    <p>supencargado: &lt;&lt;[supencargado]&gt;&gt;</p>
+    <p>foto: &lt;&lt;[foto]&gt;&gt;</p>
+    <p>licencia: &lt;&lt;[licencia]&gt;&gt;</p>
+    <p>sem: &lt;&lt;[sem]&gt;&gt;</p>
+    <p>year: &lt;&lt;[year]&gt;&gt;</p>
+    <p>responsabilidad: &lt;&lt;[responsabilidad]&gt;&gt;</p>
+    <br /><br />
+    <h2>danioBus</h2>
+    <p>&lt;&lt;Start: [AVERIAS DE BUS]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Parte Bus</td>
+          <td>&lt;&lt;[Parte Bus]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipologia</td>
+          <td>&lt;&lt;[Tipologia]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Observaciones</td>
+          <td>&lt;&lt;[Observaciones]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Imagen</td>
+          <td>&lt;&lt;[Imagen]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>parte</td>
+          <td>&lt;&lt;[parte]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>numdanio</td>
+          <td>&lt;&lt;[numdanio]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>gastos</h2>
+    <p>&lt;&lt;Start: [GASTOS]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Quien autorizo</td>
+          <td>&lt;&lt;[Quien autorizo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Concepto Pago</td>
+          <td>&lt;&lt;[Concepto Pago]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Monto Pagado</td>
+          <td>&lt;&lt;[Monto Pagado]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Centro de Costo</td>
+          <td>&lt;&lt;[Centro de Costo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipo ingreso</td>
+          <td>&lt;&lt;[Tipo ingreso]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Monto Recuperable</td>
+          <td>&lt;&lt;[Monto Recuperable]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Existe Comprobante</td>
+          <td>&lt;&lt;[Existe Comprobante]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Adjuntar comprobante</td>
+          <td>&lt;&lt;[Adjuntar comprobante]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Descripcion</td>
+          <td>&lt;&lt;[Descripcion]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <p>&lt;&lt;Start: [GESTION SINIESTRO]&gt;&gt;</p>
+    <h2>gestionSiniestro</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Realizara Gestion PA</td>
+          <td>&lt;&lt;[Realizara Gestion PA]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Estado PA</td>
+          <td>&lt;&lt;[Estado PA]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Realizara Entrevista Colision</td>
+          <td>&lt;&lt;[Realizara Entrevista Colision]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Estado Entrevista</td>
+          <td>&lt;&lt;[Estado Entrevista]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Realizara Informe</td>
+          <td>&lt;&lt;[Realizara Informe]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Estado Informe</td>
+          <td>&lt;&lt;[Estado Informe]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>&lt;&lt;[Conclusion]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Recomendacion</td>
+          <td>&lt;&lt;[Recomendacion]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <h2>gestionPA</h2>
+    <p>&lt;&lt;Start: [PA]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Gestion Siniestro</td>
+          <td>&lt;&lt;[Gestion Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo PA</td>
+          <td>&lt;&lt;[Codigo PA]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Adjunta PA</td>
+          <td>&lt;&lt;[Adjunta PA]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Conclusi&#243;n PA</td>
+          <td>&lt;&lt;[Conclusi&#243;n PA]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>entrevista</h2>
+    <p>&lt;&lt;Start: [ENTREVISTA]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Gestion Siniestro</td>
+          <td>&lt;&lt;[Gestion Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha Entrevista</td>
+          <td>&lt;&lt;[Fecha Entrevista]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Quien Entrevista</td>
+          <td>&lt;&lt;[Quien Entrevista]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Adjuntar Entrevista</td>
+          <td>&lt;&lt;[Adjuntar Entrevista]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Responsabilidad que Indica Conductor</td>
+          <td>&lt;&lt;[Responsabilidad que Indica Conductor]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Conclusiones</td>
+          <td>&lt;&lt;[Conclusiones]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>causaSiniestro</h2>
+    <p>&lt;&lt;Start: [Related causaSiniestros]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>gestionSiniestro</td>
+          <td>&lt;&lt;[gestionSiniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Previa</td>
+          <td>&lt;&lt;[Previa]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Discontinuidad</td>
+          <td>&lt;&lt;[Discontinuidad]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Detalle Discontinuidad</td>
+          <td>&lt;&lt;[Detalle Discontinuidad]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Acciones de Emergencia</td>
+          <td>&lt;&lt;[Acciones de Emergencia]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Causa Principal</td>
+          <td>&lt;&lt;[Causa Principal]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Descripci&#243;n</td>
+          <td>&lt;&lt;[Descripci&#243;n]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>responsabilidadSiniestro</h2>
+    <p>&lt;&lt;Start: [Related responsabilidadSiniestros]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>Id</td>
+          <td>&lt;&lt;[Id]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>gestionSiniestro</td>
+          <td>&lt;&lt;[gestionSiniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Factor</td>
+          <td>&lt;&lt;[Factor]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Monto</td>
+          <td>&lt;&lt;[Monto]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Categoria</td>
+          <td>&lt;&lt;[Categoria]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tiempo</td>
+          <td>&lt;&lt;[Tiempo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Ratio</td>
+          <td>&lt;&lt;[Ratio]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>PropuestaSancion</h2>
+    <p>&lt;&lt;Start: [Related PropuestaSancions]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>Id</td>
+          <td>&lt;&lt;[Id]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>gestionSiniestro</td>
+          <td>&lt;&lt;[gestionSiniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipologia</td>
+          <td>&lt;&lt;[Tipologia]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Medida</td>
+          <td>&lt;&lt;[Medida]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Bono</td>
+          <td>&lt;&lt;[Bono]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Memo</td>
+          <td>&lt;&lt;[Memo]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>gestionSupervisor</h2>
+    <p>&lt;&lt;Start: [GESTION SUPERVISOR]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre del Supervisor</td>
+          <td>&lt;&lt;[Nombre del Supervisor]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipo de Gestion</td>
+          <td>&lt;&lt;[Tipo de Gestion]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha</td>
+          <td>&lt;&lt;[Fecha]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Hora de Inicio</td>
+          <td>&lt;&lt;[Hora de Inicio]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Hora de Fin</td>
+          <td>&lt;&lt;[Hora de Fin]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>super</td>
+          <td>&lt;&lt;[super]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>tipogestion</td>
+          <td>&lt;&lt;[tipogestion]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <p>&lt;&lt;Start: [OPERACION POLICIAL]&gt;&gt;</p>
+    <h2>intervencionPolicial</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tecnico de Transito</td>
+          <td>&lt;&lt;[Tecnico de Transito]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre de la Comisaria</td>
+          <td>&lt;&lt;[Nombre de la Comisaria]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Prueba de Dosaje</td>
+          <td>&lt;&lt;[Prueba de Dosaje]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>comisaria</td>
+          <td>&lt;&lt;[comisaria]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <h2>documentoPolicial</h2>
+    <p>&lt;&lt;Start: [DOCUMENTO POLICIAL]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Intervencion Policial</td>
+          <td>&lt;&lt;[Intervencion Policial]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre</td>
+          <td>&lt;&lt;[Nombre]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha Emision</td>
+          <td>&lt;&lt;[Fecha Emision]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Estado</td>
+          <td>&lt;&lt;[Estado]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Adjunta el Archivo</td>
+          <td>&lt;&lt;[Adjunta el Archivo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Observacion</td>
+          <td>&lt;&lt;[Observacion]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>lesionados</h2>
+    <p>&lt;&lt;Start: [LESIONADOS]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipologia</td>
+          <td>&lt;&lt;[Tipologia]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>afectado</td>
+          <td>&lt;&lt;[afectado]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre y Apellidos</td>
+          <td>&lt;&lt;[Nombre y Apellidos]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Dni</td>
+          <td>&lt;&lt;[Dni]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Edad</td>
+          <td>&lt;&lt;[Edad]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Telefono</td>
+          <td>&lt;&lt;[Telefono]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Domicilio</td>
+          <td>&lt;&lt;[Domicilio]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Foto</td>
+          <td>&lt;&lt;[Foto]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Atencion Topico</td>
+          <td>&lt;&lt;[Atencion Topico]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Diagnostico Topico</td>
+          <td>&lt;&lt;[Diagnostico Topico]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre medico Topico</td>
+          <td>&lt;&lt;[Nombre medico Topico]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Acta de Retiro Voluntario</td>
+          <td>&lt;&lt;[Acta de Retiro Voluntario]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Adjunto Acta de Retiro</td>
+          <td>&lt;&lt;[Adjunto Acta de Retiro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Se Activo SOAT</td>
+          <td>&lt;&lt;[Se Activo SOAT]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Centro Medico</td>
+          <td>&lt;&lt;[Centro Medico]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre Medico</td>
+          <td>&lt;&lt;[Nombre Medico]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Diagnostico</td>
+          <td>&lt;&lt;[Diagnostico]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha Ingreso</td>
+          <td>&lt;&lt;[Fecha Ingreso]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha de Alta</td>
+          <td>&lt;&lt;[Fecha de Alta]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Compro medicina</td>
+          <td>&lt;&lt;[Compro medicina]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Descripcion</td>
+          <td>&lt;&lt;[Descripcion]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>clinica</td>
+          <td>&lt;&lt;[clinica]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>programacionConductor</h2>
+    <p>&lt;&lt;Start: [PROGRAMACION CONDUCTOR]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Semana</td>
+          <td>&lt;&lt;[Semana]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha Inicio</td>
+          <td>&lt;&lt;[Fecha Inicio]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Fecha Fin</td>
+          <td>&lt;&lt;[Fecha Fin]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td>&lt;&lt;[L]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>&lt;&lt;[M]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td>&lt;&lt;[X]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>J</td>
+          <td>&lt;&lt;[J]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>V</td>
+          <td>&lt;&lt;[V]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td>&lt;&lt;[S]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td>&lt;&lt;[D]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>vehiculoTercero</h2>
+    <p>&lt;&lt;Start: [VEHICULO TERCERO]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Se fugo</td>
+          <td>&lt;&lt;[Se fugo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipo de Vehiculo</td>
+          <td>&lt;&lt;[Tipo de Vehiculo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Placa</td>
+          <td>&lt;&lt;[Placa]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Marca</td>
+          <td>&lt;&lt;[Marca]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Modelo</td>
+          <td>&lt;&lt;[Modelo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Color del Vehiculo</td>
+          <td>&lt;&lt;[Color del Vehiculo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Seguro</td>
+          <td>&lt;&lt;[Seguro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Nombre de Conductor</td>
+          <td>&lt;&lt;[Nombre de Conductor]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>DNI</td>
+          <td>&lt;&lt;[DNI]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Telefono</td>
+          <td>&lt;&lt;[Telefono]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Parte Frontal</td>
+          <td>&lt;&lt;[Parte Frontal]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Parte Posterior</td>
+          <td>&lt;&lt;[Parte Posterior]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Imagen 1</td>
+          <td>&lt;&lt;[Imagen 1]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Imagen 2</td>
+          <td>&lt;&lt;[Imagen 2]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Transaccion</td>
+          <td>&lt;&lt;[Transaccion]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Acuerdo</td>
+          <td>&lt;&lt;[Acuerdo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Monto</td>
+          <td>&lt;&lt;[Monto]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Adjunto</td>
+          <td>&lt;&lt;[Adjunto]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Manifestacion</td>
+          <td>&lt;&lt;[Manifestacion]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Tipovehiculo</td>
+          <td>&lt;&lt;[Tipovehiculo]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Marcaveh</td>
+          <td>&lt;&lt;[Marcaveh]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+    <h2>nivelResponsabilidad</h2>
+    <p>&lt;&lt;Start: [NIVEL RESPONSABILIDAD]&gt;&gt;</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>&lt;&lt;[ID]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Codigo Siniestro</td>
+          <td>&lt;&lt;[Codigo Siniestro]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Responsabilidad</td>
+          <td>&lt;&lt;[Responsabilidad]&gt;&gt;</td>
+        </tr>
+        <tr>
+          <td>Conclusiones y Recomendaciones</td>
+          <td>&lt;&lt;[Conclusiones y Recomendaciones]&gt;&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <p>&lt;&lt;End&gt;&gt;</p>
+    <br /><br />
+  </body>
+</html>
