@@ -34,6 +34,32 @@ img, video, svg { height: auto; max-width: 100%; }
  --light-20: #0693e3;
  --gray-10: #abb8c3;
  }
+ 
+ body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0.5in;
+    background: #FFF;
+    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+}
 
+ /* table */
+table {
+    font-size: 75%;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 0.5em;
+    position: relative;
+    text-align: left;
+}
+
+th {
+    background: #EEE;
+}
 
 
