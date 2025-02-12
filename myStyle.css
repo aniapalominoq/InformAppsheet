@@ -27,3 +27,13 @@ img, video, svg { height: auto; max-width: 100%; }
 }
 
 /******************************/
+/*colors */
+
+:root {
+ --blue-10: #8ed1fc;
+ --light-20: #0693e3;
+ --gray-10: #abb8c3;
+ }
+
+
+
