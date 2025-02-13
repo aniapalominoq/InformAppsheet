@@ -30,36 +30,213 @@ img, video, svg { height: auto; max-width: 100%; }
 /*colors */
 
 :root {
- --blue-10: #8ed1fc;
- --light-20: #0693e3;
- --gray-10: #abb8c3;
+ --primary-10: #124D7F;
+ --primary-20: #2C7ABA;
+ --primary-30: #34B1E2;
  }
+
  
  body {
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0.5in;
-    background: #FFF;
-    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+     display:flex;
+     flex-direction: column;
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+    
 }
 
- /* table */
+.main{
+
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+/* Contenedor de la imagen */
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Imagen responsiva */
+  .img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid var(--primary-10);
+  }
+  
+
+/* Estilos generales del encabezado */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 3px solid var(--primary-10);
+   
+  }
+  
+  /* Logo de la empresa */
+  .img-logo {
+    height: 60px; /* Ajusta según el tamaño del logo */
+  }
+  
+  /* Contenedor de la información del informe */
+  .report {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+  
+  /* Título del informe */
+  .title-report h2 {
+    font-size: 20px;
+    color: var(--primary-10);
+    margin: 0;
+  }
+  
+  .title-report p {
+    font-size: 14px;
+    margin: 3px 0;
+    color: #333;
+  }
+  
+  /* Código del siniestro */
+  .number-report {
+    background: var(--primary-10);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .number-report span {
+    font-weight: bold;
+  }
+  
+  .number-report p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0;
+  }
+  
+h1, h2, h3 {
+    color: var(--primary-10);
+    font-weight: bold;
+  }
+  
+  
+    h4 {
+        font-size: 16px;
+        color: var(--primary-10); /* Azul corporativo */
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-left: 4px solid var(--primary-10); /* Línea azul en el lado izquierdo */
+        padding-left: 10px;
+      }
+      
+  
+
+/* Contenedor general de la tabla */
 table {
-    font-size: 75%;
-    table-layout: fixed;
     width: 100%;
-    border-collapse: collapse; 
-}
-
-th, td {
-    border: 1px solid #000; 
-    padding: 0.5em;
-    position: relative;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background: #f9f9f9;
+    font-size: 14px;
     text-align: left;
-}
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los encabezados */
+  th {
+    background: var(--primary-10);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para las celdas */
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  /* Alternar colores en filas */
+  tr:nth-child(even)
+  
 
-th {
-    background: #EEE;
-}
 
 
+p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+ */leyenda*/
+ul {
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  ul li {
+    list-style: none;
+    padding: 5px 10px;
+    margin: 5px 0;
+    background: #f4f4f4;
+    border-left: 5px solid var(--primary-10);
+    border-radius: 4px;
+  }
+  
+  ul li span {
+    color: var(--primary-10);
+    margin-right: 5px;
+    font-weight:bold ;
+  }
+
+  h3 {
+    font-size: 18px;
+    border-bottom: 2px solid var(--primary-10);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .fases {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .fase {
+    padding: 10px;
+    margin: 10px 0;
+    background: #f4f4f4;
+    border-left: 5px solid var(--primary-10);
+    border-radius: 4px;
+    font-size: 14px;
+
+  }
+  
+  .fase b {
+    color:var(--primary-10);
+    font-size: 15px;
+  }
