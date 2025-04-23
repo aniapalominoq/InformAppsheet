@@ -37,19 +37,23 @@ img, video, svg { height: auto; max-width: 100%; }
 
  
  body {
-     display:flex;
-     flex-direction: column;
-     font-family: Arial, sans-serif;
-     line-height: 1.6;
-    
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #1a1a1a;
+  padding: 0;
+  margin: 0;
+  text-align: justify; /* Justificar el texto */
+  border:10px solid purple;
 }
 
-.main{
-
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 8px;
+/* Contenedor principal centrado */
+.main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 24px;
 
 }
 
@@ -76,17 +80,17 @@ img, video, svg { height: auto; max-width: 100%; }
 
 /* Estilos generales del encabezado */
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 20px;
-    border-bottom: 3px solid var(--primary-10);
-   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24PX 0;
   }
+
   
   /* Logo de la empresa */
   .img-logo {
     height: 60px; /* Ajusta según el tamaño del logo */
+   
   }
   
   /* Contenedor de la información del informe */
@@ -94,33 +98,33 @@ img, video, svg { height: auto; max-width: 100%; }
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    text-align: right;
+    justify-content: space-between;
   }
   
   /* Título del informe */
-  .title-report h2 {
+  .title-report h1{
     font-size: 20px;
     color: var(--primary-10);
     margin: 0;
+    text-align: right;
   }
+
   
   .title-report p {
     font-size: 14px;
     margin: 3px 0;
     color: #333;
+    text-align: right;
   }
   
   /* Código del siniestro */
   .number-report {
     background: var(--primary-10);
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     margin-top: 5px;
     text-align: center;
-  }
-  
-  .number-report span {
     font-weight: bold;
   }
   
@@ -130,109 +134,65 @@ img, video, svg { height: auto; max-width: 100%; }
     margin: 5px 0 0;
   }
   
-h1, h2, h3 {
-    color: var(--primary-10);
-    font-weight: bold;
-  }
-  
-  
-    h4 {
-        font-size: 16px;
-        color: var(--primary-10); /* Azul corporativo */
-        font-weight: bold;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-        border-left: 4px solid var(--primary-10); /* Línea azul en el lado izquierdo */
-        padding-left: 10px;
-      }
-      
-  
 
 /* Contenedor general de la tabla */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 10px 0;
-    background: #f9f9f9;
+    margin: 16px 0;
+    background: #ffffff;
     font-size: 14px;
     text-align: left;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    page-break-inside: auto;
   }
   
   /* Estilos para los encabezados */
   th {
     background: var(--primary-10);
     color: white;
-    padding: 10px;
-    font-weight: bold;
+    padding: 12px 10px;
     text-transform: uppercase;
-    border: 1px solid #ddd;
+    border: 1px solid #e0e0e0;
+    letter-spacing: 0.5px;
   }
   
   /* Estilos para las celdas */
   td {
     padding: 10px;
-    border: 1px solid #ddd;
-    color: #333;
+    border: 1px solid #e6e6e6;
+    color: #222;
+    vertical-align: top;
   }
   
-  /* Alternar colores en filas */
-  tr:nth-child(even)
-  
-
-
-
+/* Alternar colores en filas */
+tr:nth-child(even) {
+  background-color: #f5faff; /* Un azul muy suave */
+}
 p {
     font-size: 14px;
     text-align: justify;
     margin-bottom: 10px;
   }
 
- */leyenda*/
-ul {
-    padding: 0;
-    margin: 0;
-
-  }
-  
-  ul li {
-    list-style: none;
-    padding: 5px 10px;
-    margin: 5px 0;
-    background: #f4f4f4;
-    border-left: 5px solid var(--primary-10);
-    border-radius: 4px;
-  }
-  
-  ul li span {
-    color: var(--primary-10);
-    margin-right: 5px;
-    font-weight:bold ;
-  }
-
-  h3 {
-    font-size: 18px;
-    border-bottom: 2px solid var(--primary-10);
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-  }
   
   .fases {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 10px 0;
+    font-family: sans-serif;
+    border: 5px;
   }
   
   .fase {
     padding: 10px;
     margin: 10px 0;
-    background: #f4f4f4;
-    border-left: 5px solid var(--primary-10);
+    background: #f5faff;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 14px; 
+    border: 1px solid var(--primary-20);
+    border-left: 5px solid var(--primary-10);
 
   }
   
@@ -240,3 +200,87 @@ ul {
     color:var(--primary-10);
     font-size: 15px;
   }
+
+  h2 {
+    font-size: 20px;
+    border-bottom: 2px solid var(--primary-10); /* primary-10 */
+    color: var(--primary-10);
+    padding-bottom: 4px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: var(--primary-20); /* primary-20 */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: 16px;
+    color: var(--primary-30); /* primary-30 */
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+/*** LEYENDA **/
+.leyenda-box {
+  background-color: #f5faff;
+  border: 1px solid var(--primary-20); /* primary-20 */
+  border-left: 5px solid var(--primary-10); /* primary-10 como acento */
+  padding: 16px;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-family: sans-serif;
+  width: 300px;
+}
+
+.leyenda-box, .title {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #124D7F;
+  margin-bottom: 10px;
+}
+
+.leyenda-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.leyenda-box li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.leyenda-box li span {
+  display: inline-block;
+  font-weight: bold;
+  color: #2C7ABA;
+  width: 50px;
+}
+
+  /*
+  ul {
+      padding: 0;
+      margin: 0;
+  
+    }
+    
+    ul li {
+      list-style: none;
+      padding: 5px 10px;
+      margin: 5px 0;
+      background: #f4f4f4;
+      border-left: 5px solid var(--primary-10);
+      border-radius: 4px;
+      color: var(--primary-10);
+      font-weight:bold ;
+    }*/
