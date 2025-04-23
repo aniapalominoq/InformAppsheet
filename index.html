@@ -1,389 +1,635 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="https://aniapalominoq.github.io/InformAppsheet/myStyle.css"/>
-    <link rel="stylesheet" href="/myStyle.css" />
-    <link rel="license" href="https://www.opensource.org/licenses/mit-license/"/>
-</head>
-<body>
-    <header class="header">
-        <img class="img-logo"
-            src="//www.limatransvial.com/wp-content/themes/transvial/assets/images/logo2.png"
-            alt=""/>
-        <div class="report">
-            <div class="title-report">
-                <h2>INFORME DEL SINIESTRO</h2>
-                <p>&lt;&lt;[chofer]&gt;&gt;</p>
-                <p>&lt;&lt;[evento]&gt;&gt;</p>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/InformAppsheet/myStyle.css"/>
+        <link rel="stylesheet" href="/myStyle.css" />
+        <link rel="license" href="https://www.opensource.org/licenses/mit-license/"/>
+    </head>
+    <body>
+        <header class="header container">
+            <img class="img-logo"
+                src="//www.limatransvial.com/wp-content/themes/transvial/assets/images/logo2.png"
+                alt=""/>
+            <div class="report">
+                <div class="title-report">
+                    <h1>INFORME DEL SINIESTRO</h1>
+                    <p>&lt;&lt;[chofer]&gt;&gt;</p>
+                    <p>&lt;&lt;[evento]&gt;&gt;</p>
+                </div>
+                <div class="number-report">
+                    <span>Código siniestralidad</span>
+                    <p>&lt;&lt;[Codigo Siniestralidad]&gt;&gt;</p>
+                </div>
             </div>
-            <div class="number-report">
-                <span>Código siniestralidad</span>
-                <p>&lt;&lt;[Codigo Siniestralidad]&gt;&gt;</p>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <h2>INTRODUCIÓN</h2>
-        <p>
-            El siniestro identificado con el código &lt;&lt;[Codigo Siniestralidad]&gt;&gt; ocurrió el &lt;&lt;[Fecha Ocurrencia]&gt;&gt; a
-            las &lt;&lt;[Hora Ocurrencia]&gt;&gt;. Este evento pertenece a la
-            categoría &lt;&lt;[evento]&gt;&gt; y subcategoría
-            &lt;&lt;[subtip]&gt;&gt;, registrado en &lt;&lt;[Ubicacion]&gt;&gt;,
-            distrito de &lt;&lt;[distrit]&gt;&gt;. La situación ha sido clasificada
-            con un grado de gravedad &lt;&lt;[Grado]&gt;&gt;, bajo la supervisión de
-            turno del responsable &lt;&lt;[supencargado]&gt;&gt;, quien detalla lo
-            siguiente sobre el incidente:
-        </p>
-        <p>Hechos Accidente: &lt;&lt;[Hechos Accidente]&gt;&gt;</p>
-        <p>
-            El vehículo involucrado, identificado como &lt;&lt;[unidad]&gt;&gt;,
-            conducido por &lt;&lt;[chofer]&gt;&gt;, se desplazaba en el sentido
-            &lt;&lt;[sentid]&gt;&gt; al momento del siniestro. La ubicación del
-            siniestro se encuentra representada en la siguiente imagen referencial,
-            basada en las coordenadas del punto del siniestro:
-        </p>
-        <h4>Imagen Referencial</h4> 
-        <div class="img">
-            <img
-            src="https://github.com/aniapalominoq/InformAppsheet/staticmap.png"
-            alt="Imagen Referencial de la ubicacion del siniestro"/>
-        </div>
-        <p>
-            En relación con el conductor implicado, Sr(a). &lt;&lt;[chofer]&gt;&gt;
-            se presentan a continuación los datos personales asociados a este
-            siniestro.
-        </p>
-        <table >
-            <tr>
-                <th><span>Fecha Nacimiento</span></th>
-                <td>&lt;&lt;[chofernac]&gt;&gt;</td>
-                <th><span>Ranking</span></th>
-                <td>&lt;&lt;[Ranking]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Edad</span></th>
-                <td>&lt;&lt;[edad]&gt;&gt;</td>
-                <th><span>Top</span></th>
-                <td>&lt;&lt;[Top]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>DNI</span></th>
-                <td>&lt;&lt;[dni]&gt;&gt;</td>
-                <td rowspan="5" colspan="2" style="text-align: center"> &lt;&lt;[foto]&gt;&gt; </td>
-            </tr>
-            <tr>
-                <th><span>Teléfono</span></th>
-                <td>&lt;&lt;[phone]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Licencia</span></th>
-                <td>&lt;&lt;[licencia]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>CAC</span></th>
-                <td>&lt;&lt;[cac]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Antigüedad</span></th>
-                <td >&lt;&lt;[Antiguedad]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Fecha Ingreso</span></th>
-                <td>&lt;&lt;[choferingreso]&gt;&gt;</td>
-                <th><span>Conductor</span></th>
-                <td>&lt;&lt;[chofer]&gt;&gt;</td>
-            </tr>
-        </table>
-        <p>
-            En la siguiente tabla se presentan los detalles del bus
-            &lt;&lt;[unidad]&gt;&gt; implicado en el siniestro.
-        </p>
-        <table >
-            <tr>
-                <th><span>Tipo Bus</span></th>
-                <td>&lt;&lt;[tipound]&gt;&gt;</td>
-                <th><span>Ruta</span></th>
-                <td>&lt;&lt;[rutas]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Id Bus</span></th>
-                <td>&lt;&lt;[unidad]&gt;&gt;</td>
-                <th><span>Placa</span></th>
-                <td>&lt;&lt;[placa]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Servicio</span></th>
-                <td>&lt;&lt;[Servicio]&gt;&gt;</td>
-                <th><span>Estado Linea</span></th>
-                <td>&lt;&lt;[Estado de Linea]&gt;&gt;</td>
-            </tr>
-            <tr>
-                <th><span>Sentido</span></th>
-                <td>&lt;&lt;[sentid]&gt;&gt;</td>
-                <th><span>Velocidad</span></th>
-                <td>&lt;&lt;[Velocidad Promedio]&gt;&gt;</td>
-            </tr>
-        </table>
-        <p> &lt;&lt;If:COUNT([LESIONADOS])>0&gt;&gt; Se registró &lt;&lt;COUNT([LESIONADOS])&gt;&gt; persona(s) lesionada(s) como
-            consecuencia del incidente. Estas personas recibieron la atención correspondiente conforme a los protocolos establecidos, garantizando una evaluación y asistencia médica adecuada. &lt;&lt;EndIf&gt;&gt;
-        </p>
-        <p> &lt;&lt;If:COUNT([LESIONADOS])=0&gt;&gt; No se reportaron personas
-            lesionadas en este incidente, asegurando que no fue necesario activar
-            procedimientos de atención médica. &lt;&lt;EndIf&gt;&gt;
-        </p>
-        <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])>0&gt;&gt; Adicionalmente, se
-            identificaron &lt;&lt;COUNT([AVERIAS DE BUS])&gt;&gt; daño(s) en el bus
-            involucrado. Se detallaron las partes afectadas y el tipo de avería
-            sufrida, permitiendo una evaluación precisa del impacto en la
-            operatividad del bus. &lt;&lt;EndIf&gt;&gt;
-        </p>
-        <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])=0&gt;&gt; Tras la inspección correspondiente, no se encontraron daños en la unidad involucrada en este incidente, asegurando su continuidad operativa sin afectaciones. &lt;&lt;EndIf&gt;&gt;
-        </p>
-        <h2>DETALLES DEL SINIESTRO</h2><br>
-        <h3>1. PROGRAMACIÓN DEL CONDUCTOR</h3>
-    <p> &lt;&lt;If:COUNT([PROGRAMACION CONDUCTOR])>0&gt;&gt; A continuación, se presenta la programación del conductor involucrado en  el  siniestro:
-      <p>&lt;&lt;Start:[PROGRAMACION CONDUCTOR]&gt;&gt; El siguiente cuadro
-          detalla la planificación correspondiente a la semana
-          &lt;&lt;[Semana]&gt;&gt; , con un período comprendido desde el
-          &lt;&lt;[Fecha Inicio]&gt;&gt; hasta el &lt;&lt;[Fecha Fin]&gt;&gt;
-          del presente año.
-          <h4>Resumen de su programación</h4>
-          <table >
-            <tr>
-              <th><span>Lunes</span></th>
-              <th><span>Martes</span></th>
-              <th><span>Miércoles</span></th>
-              <th><span>Jueves</span></th>
-              <th><span>Viernes</span></th>
-              <th><span>Sábado</span></th>
-              <th><span>Domingo</span></th>
-            </tr>
-            <tr>
-              <td>&lt;&lt;[L]&gt;&gt;</td>
-              <td>&lt;&lt;[M]&gt;&gt;</td>
-              <td>&lt;&lt;[X]&gt;&gt;</td>
-              <td>&lt;&lt;[J]&gt;&gt;</td>
-              <td>&lt;&lt;[V]&gt;&gt;</td>
-              <td>&lt;&lt;[S]&gt;&gt;</td>
-              <td>&lt;&lt;[D]&gt;&gt;</td>
-            </tr>
-          </table>
-          &lt;&lt;End&gt;&gt;
-      </p>
-      <h4>leyenda</h4>
-      <ul>
-        <li><span>P</span>: Programado</li>
-        <li><span>F</span>: Franco</li>
-        <li><span>S</span>: Siniestro</li>
-        <li><span>FA</span>: Franco adicional</li>
-        <li><span>VAC</span>: Vacaciones</li>
-        <li><span>SAN</span>: Sanción</li>
-      </ul>
-      &lt;&lt;EndIf&gt;&gt;
-    </p>
-    <p> &lt;&lt;If:COUNT([PROGRAMACION CONDUCTOR])=0&gt;&gt; No se
-      encontró información sobre la programación del conductor involucrado
-      en el siniestro. &lt;&lt;EndIf&gt;&gt;
-    </p> 
-  <h3>2. DATOS DE LOS LESIONADOS</h3>
-  <p>&lt;&lt;If:COUNT([LESIONADOS])>0&gt;&gt; Se han registrado las siguientes personas lesionadas en el incidente:
-      <p>&lt;&lt;Start:[LESIONADOS]&gt;&gt;
-          <p><strong>El ciudadano(a):</strong> &lt;&lt;[Nombre y Apellidos]&gt;&gt;</p>
-          <p><strong>Identificación (DNI):</strong> &lt;&lt;[Dni]&gt;&gt;</p>
-          <p><strong>Edad:</strong> &lt;&lt;[Edad]&gt;&gt; años</p>
-          <p><strong>Domicilio:</strong> &lt;&lt;[Domicilio]&gt;&gt;</p>
-          <p><strong>Número de contacto:</strong> &lt;&lt;[Telefono]&gt;&gt;</p>
-          <p><strong>Categoría:</strong> &lt;&lt;[Tipologia]&gt;&gt;</p>
-          <p><strong>Atención Médica (SAMU):</strong> &lt;&lt;[Atencion Topico]&gt;&gt;</p>
-          <p><strong>Acta de Retiro Voluntario:</strong> &lt;&lt;[Acta de Retiro Voluntario]&gt;&gt;</p>
-          <p><strong>Seguro SOAT Activado:</strong> &lt;&lt;[Se Activo SOAT]&gt;&gt;</p>
-          <p><strong>Fecha de Ingreso:</strong> &lt;&lt;[Fecha Ingreso]&gt;&gt;</p>
-          <p><strong>Centro Médico Asignado:</strong> &lt;&lt;[clinica]&gt;&gt;</p>
-          <p><strong>Diagnóstico:</strong> “&lt;&lt;[Diagnostico]&gt;&gt;”</p>
-          <hr> 
-            &lt;&lt;End&gt;&gt;
-      </p> 
-      &lt;&lt;EndIf&gt;&gt;
-  </p> 
-  <p>&lt;&lt;If:COUNT([LESIONADOS])=0&gt;&gt; No se reportaron personas lesionadas en este incidente. &lt;&lt;EndIf&gt;&gt; </p>
-  <h3>3. DETALLE DE DAÑOS DEL BUS</h3> 
-  <p>&lt;&lt;If:COUNT([AVERIAS DE BUS])>0&gt;&gt; Se han identificado los siguientes daños en el bus involucrado en el incidente:
-      <p>&lt;&lt;Start:[AVERIAS DE BUS]&gt;&gt;
-            <p><strong>Parte afectada:</strong> &lt;&lt;[Parte]&gt;&gt;</p>
-            <p><strong>Tipo de daño:</strong> &lt;&lt;[Tipologia]&gt;&gt;</p>
-            <p><strong>Observaciones:</strong>&lt;&lt;[Observaciones]&gt;&gt;</p>
-            <hr/>&lt;&lt;End&gt;&gt;
-      </p>
-        El reporte detalla las afectaciones en distintas partes del vehículo, proporcionando información clave para su evaluación y reparación. &lt;&lt;EndIf&gt;&gt; 
-  </p> 
-  <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])=0&gt;&gt; No se registraron daños en el bus involucrado en este incidente.
-  &lt;&lt;EndIf&gt;&gt; </p>
-  <h3>4. DETALLE DE VEHICULOS DE TERCEROS</h3>
-  <p> &lt;&lt;If:COUNT([VEHICULO TERCERO])>0&gt;&gt; Se han registrado los siguientes vehículos de terceros involucrados en el incidente:
-        <p>&lt;&lt;Start:[VEHICULO TERCERO]&gt;&gt;
-            <table>
+        </header>
+        <main class="main container">
+            <h2>1. DATOS GENERALES DEL SINIESTRO</h2>
+            <h3>1.1 INTRODUCCIÓN</h3>
+            <p>
+                Se reporta el siniestro identificado con el código <b>  &lt;&lt;[Codigo Siniestralidad]&gt;&gt; </b> ocurrió el <b> &lt;&lt;[Fecha Ocurrencia]&gt;&gt; </b> a
+                las <b> &lt;&lt;[Hora Ocurrencia]&gt;&gt;. </b>  
+            </p>
+            <p>
+                El conductor involucrado en el evento es <b>&lt;&lt;[chofer]&gt;&gt; </b>, el cual conducia el bus con ID interno <b> &lt;&lt;[unidad]&gt;&gt; </b>,  de la linea <b> &lt;&lt;[tipound]&gt;&gt; </b> el cual realizaba la ruta <b> &lt;&lt;[rutas]&gt;&gt; </b>  con el servicio <b> &lt;&lt;[Servicio]&gt;&gt; </b>,esta unidad se desplazaba en sentido
+                <b> &lt;&lt;[sentid]&gt;&gt; </b>. El siniestro ocurrio en la ubicación <b> &lt;&lt;[Ubicacion]&gt;&gt; </b> en el distrito de <b> &lt;&lt;[distrit]&gt;&gt;.</b> con ubicación referencial estación/paradero  &lt;&lt;[estacionRef]&gt;&gt;
+            </p>
+            <p> Este evento pertenece a la tipificación de
+                categoría <b> &lt;&lt;[evento]&gt;&gt;</b> y subcategoría
+                <b> &lt;&lt;[subtip]&gt;&gt; </b>, la cual se representa como un nivel de siniestro de impacto <b> &lt;&lt;[Grado]&gt;&gt; </b>,la cual fue atendida en primera instancia por el supervisor <b> &lt;&lt;[supencargado]&gt;&gt; </b> , quien detalla los hechos del siniestro:
+            </p>
+            <blockquote>
+            <p>Hechos Accidente:<i>" &lt;&lt;[Hechos Accidente]&gt;&gt; "</i></p>
+            </blockquote>
+         
+            <p class="title">IMAGEN REFERENCIAL</p> 
+                <div class="img">
+                &lt;&lt;[Coordenadas]&gt;&gt;
+                </div>
+            <p>
+                En relación con el conductor implicado, Sr(a). <b> &lt;&lt;[chofer]&gt;&gt; </b>
+                se presentan a continuación los datos propios del conductor transvial implicado en este evento.
+            </p>
+            <h3>1.2 DATOS DEL CONDUCTOR </h3>
+            <p>En esta sección se presentan los datos generales correspondientes al conductor involucrado en el siniestro.</p>
+            <h4>1.2.1 DATOS GENERALES </h4>
+            <table >
                 <tr>
-                <th>Fuga del tercero</th>
-                <td>&lt;&lt;[Se fugo]&gt;&gt;</td>
+                    <th rowspan="1" colspan="4" style="text-align: center"> DATOS DEL CONDUCTOR TRANSVIA</th>
                 </tr>
                 <tr>
-                <th>Tipo de vehículo</th>
-                <td>&lt;&lt;[Tipovehiculo]&gt;&gt;</td>
+                    <th><span>Fecha Nacimiento</span></th>
+                    <td>&lt;&lt;[chofernac]&gt;&gt;</td>
+                    <th><span>Ranking</span></th>
+                    <td>&lt;&lt;[Ranking]&gt;&gt;</td>
                 </tr>
                 <tr>
-                <th>Placa</th>
-                <td>&lt;&lt;[Placa]&gt;&gt;</td>
+                    <th><span>Edad</span></th>
+                    <td>&lt;&lt;[edad]&gt;&gt;</td>
+                    <th><span>Top</span></th>
+                    <td>&lt;&lt;[Top]&gt;&gt;</td>
                 </tr>
                 <tr>
-                <th>Marca</th>
-                <td>&lt;&lt;[Marcaveh]&gt;&gt;</td>
+                    <th><span>DNI</span></th>
+                    <td>&lt;&lt;[dni]&gt;&gt;</td>
+                    <td rowspan="5" colspan="2" style="text-align: center"> &lt;&lt;[foto]&gt;&gt; </td>
                 </tr>
                 <tr>
-                <th>Modelo</th>
-                <td>&lt;&lt;[Modelo]&gt;&gt;</td>
+                    <th><span>Teléfono</span></th>
+                    <td>&lt;&lt;[phone]&gt;&gt;</td>
                 </tr>
                 <tr>
-                <th>Color</th>
-                <td>&lt;&lt;[Color del Vehiculo]&gt;&gt;</td>
+                    <th><span>Licencia</span></th>
+                    <td>&lt;&lt;[licencia]&gt;&gt;</td>
                 </tr>
                 <tr>
-                <th>Conductor</th>
-                <td>&lt;&lt;[Nombre de Conductor]&gt;&gt;</td>
+                    <th><span>CAC</span></th>
+                    <td>&lt;&lt;[cac]&gt;&gt;</td>
                 </tr>
                 <tr>
-                <th>Teléfono de contacto</th>
-                <td>&lt;&lt;[Telefono]&gt;&gt;</td>
+                    <th><span>Antigüedad</span></th>
+                    <td >&lt;&lt;[Antiguedad]&gt;&gt;</td>
                 </tr>
                 <tr>
-                <th>Transacción</th>
-                <td>&lt;&lt;[Transaccion]&gt;&gt;</td>
-                </tr>
-                <tr>
-                <th>Tipo de acuerdo</th>
-                <td>&lt;&lt;[Acuerdo]&gt;&gt;</td>
+                    <th><span>Fecha Ingreso</span></th>
+                    <td>&lt;&lt;[choferingreso]&gt;&gt;</td>
+                    <th><span>Conductor</span></th>
+                    <td>&lt;&lt;[chofer]&gt;&gt;</td>
                 </tr>
             </table>
-        <p><strong>Manifestación del afectado:</strong> &lt;&lt;[Manifestacion]&gt;&gt;</p>
-        <hr />
-        &lt;&lt;End&gt;&gt;
-        </p>
-        Toda la información registrada contribuye al seguimiento del caso y a la gestión de posibles acuerdos entre las partes involucradas. &lt;&lt;EndIf&gt;&gt;
-  </p>
-  <p> &lt;&lt;If:COUNT([VEHICULO TERCERO])=0&gt;&gt; No se registraron vehículos de terceros afectados en este incidente.
-    &lt;&lt;EndIf&gt;&gt;
-  </p>
- <h3>5. DETALLE DE LA INTERVENCIÓN POLICIAL</h3>
-  <p><strong>Hubo intervención policial:</strong> &lt;&lt;[Intervencion Policial]&gt;&gt; </p>
-  <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])>0&gt;&gt; Se registraron las siguientes intervenciones policiales:
-      <p>&lt;&lt;Start:[OPERACION POLICIAL]&gt;&gt;
-          <table >
-            <tr>
-              <th><span>Prueba de dosaje etílico realizada</span></th>
-              <td><span>&lt;&lt;[Prueba de Dosaje]&gt;&gt;</span></td>
-            </tr>
-            <tr>
-              <th><span>Técnico de tránsito a cargo</span></th>
-              <td>&lt;&lt;[Tecnico de Transito]&gt;&gt;</td>
-            </tr>
-            <tr>
-              <th><span>Comisaría responsable</span></th>
-              <td>&lt;&lt;[Comisaria]&gt;&gt;</td>
-            </tr>
-          </table>
-          <p> &lt;&lt;If:COUNT([DOCUMENTO POLICIAL])>0&gt;&gt; Además, se registraron los siguientes documentos policiales:
-                <p> &lt;&lt;Start:[DOCUMENTO POLICIAL]&gt;&gt;
+            <h4>1.2.2 PROGRAMACIÓN DEL CONDUCTOR</h4>
+            <p> &lt;&lt;If:COUNT([PROGRAMACION CONDUCTOR])>0&gt;&gt; A continuación, se presenta la programación del conductor involucrado en  el  siniestro:
+            <p>&lt;&lt;Start:[PROGRAMACION CONDUCTOR]&gt;&gt; El siguiente cuadro
+                detalla la planificación correspondiente a la semana
+                &lt;&lt;[Semana]&gt;&gt; , con un período comprendido desde el
+                &lt;&lt;[Fecha Inicio]&gt;&gt; hasta el &lt;&lt;[Fecha Fin]&gt;&gt;
+                del presente año.
+                <p class="title">RESUMEN SEMANAL</p> 
+                <table >
+                    <tr>
+                        <th rowspan="1" colspan="7" style="text-align: center">DETALLE DE LA PROGRAMACIÓN</th>
+                    </tr>
+                    <tr>
+                        <th><span>Lunes</span></th>
+                        <th><span>Martes</span></th>
+                        <th><span>Miércoles</span></th>
+                        <th><span>Jueves</span></th>
+                        <th><span>Viernes</span></th>
+                        <th><span>Sábado</span></th>
+                        <th><span>Domingo</span></th>
+                    </tr>
+                    <tr>
+                        <td>&lt;&lt;[L]&gt;&gt;</td>
+                        <td>&lt;&lt;[M]&gt;&gt;</td>
+                        <td>&lt;&lt;[X]&gt;&gt;</td>
+                        <td>&lt;&lt;[J]&gt;&gt;</td>
+                        <td>&lt;&lt;[V]&gt;&gt;</td>
+                        <td>&lt;&lt;[S]&gt;&gt;</td>
+                        <td>&lt;&lt;[D]&gt;&gt;</td>
+                    </tr>
+                </table>
+                &lt;&lt;End&gt;&gt;
+            </p>
+            <div class="leyenda-box">
+                <p class="title">LEYENDA</p> 
+                <ul>
+                    <li><span>P</span>: Programado</li>
+                    <li><span>F</span>: Franco</li>
+                    <li><span>S</span>: Siniestro</li>
+                    <li><span>FA</span>: Franco adicional</li>
+                    <li><span>VAC</span>: Vacaciones</li>
+                    <li><span>SAN</span>: Sanción</li>
+                </ul>
+              </div>
+              &lt;&lt;EndIf&gt;&gt;
+            </p>
+            <p> &lt;&lt;If:COUNT([PROGRAMACION CONDUCTOR])=0&gt;&gt; No se
+              encontró información sobre la programación del conductor involucrado
+              en el siniestro. &lt;&lt;EndIf&gt;&gt;
+            </p> 
+            <h3>1.3 DATOS DEL BUS </h3>
+            <p>
+                En esta sección se presentan los datos generales correspondientes al bus
+                &lt;&lt;[unidad]&gt;&gt; implicado en el siniestro.
+            </p>
+            <h4>1.3.1 DATOS GENERALES</h4>
+            <table >
+                <tr>
+                    <th rowspan="1" colspan="4" style="text-align: center">DATOS DEL BUS TRANSVIAL</th>
+                </tr>
+                <tr>
+                    <th><span>Tipo Bus</span></th>
+                    <td>&lt;&lt;[tipound]&gt;&gt;</td>
+                    <th><span>Ruta</span></th>
+                    <td>&lt;&lt;[rutas]&gt;&gt;</td>
+                </tr>
+                <tr>
+                    <th><span>Id Bus</span></th>
+                    <td>&lt;&lt;[unidad]&gt;&gt;</td>
+                    <th><span>Placa</span></th>
+                    <td>&lt;&lt;[placa]&gt;&gt;</td>
+                </tr>
+                <tr>
+                    <th><span>Servicio</span></th>
+                    <td>&lt;&lt;[Servicio]&gt;&gt;</td>
+                    <th><span>Estado Linea</span></th>
+                    <td>&lt;&lt;[Estado de Linea]&gt;&gt;</td>
+                </tr>
+                <tr>
+                    <th><span>Sentido</span></th>
+                    <td>&lt;&lt;[sentid]&gt;&gt;</td>
+                    <th><span>Velocidad</span></th>
+                    <td>&lt;&lt;[Velocidad Promedio]&gt;&gt;</td>
+                </tr>
+            </table>
+            <h4>1.3.2 DETALLE DE DAÑOS MATERIALES</h4>
+            <p>&lt;&lt;If:COUNT([AVERIAS DE BUS])>0&gt;&gt; Se han identificado los siguientes daños en el bus involucrado en el incidente:
+            <p>&lt;&lt;Start:[AVERIAS DE BUS]&gt;&gt;
+                <p><b>Parte afectada:</b> &lt;&lt;[Parte]&gt;&gt;</p>
+                <p><b>Tipo de daño:</b> &lt;&lt;[Tipologia]&gt;&gt;</p>
+                <p><b>Observaciones:</b>&lt;&lt;[Observaciones]&gt;&gt;</p>
+                <hr/>&lt;&lt;End&gt;&gt;
+            </p>
+            El reporte detalla las afectaciones en distintas partes del vehículo, proporcionando información clave para su evaluación y reparación. &lt;&lt;EndIf&gt;&gt; 
+            </p> 
+            <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])=0&gt;&gt; No se registraron daños en el bus involucrado en este incidente.
+            &lt;&lt;EndIf&gt;&gt; </p>
+            <h3>1.4 DATOS DE LESIONADOS</h3>
+            <p>&lt;&lt;If:COUNT([LESIONADOS])>0&gt;&gt; Se han registrado las siguientes personas lesionadas en el incidente:
+                <p>&lt;&lt;Start:[LESIONADOS]&gt;&gt;
+                    <p><b>El ciudadano(a):</b> &lt;&lt;[Nombre y Apellidos]&gt;&gt;</p>
+                    <p><b>Identificación (DNI):</b> &lt;&lt;[Dni]&gt;&gt;</p>
+                    <p><b>Edad:</b> &lt;&lt;[Edad]&gt;&gt; años</p>
+                    <p><b>Domicilio:</b> &lt;&lt;[Domicilio]&gt;&gt;</p>
+                    <p><b>Número de contacto:</b> &lt;&lt;[Telefono]&gt;&gt;</p>
+                    <p><b>Categoría:</b> &lt;&lt;[Tipologia]&gt;&gt;</p>
+                    <p><b>Atención Médica (SAMU):</b> &lt;&lt;[Atencion Topico]&gt;&gt;</p>
+                    <p><b>Acta de Retiro Voluntario:</b> &lt;&lt;[Acta de Retiro Voluntario]&gt;&gt;</p>
+                    <p><b>Seguro SOAT Activado:</b> &lt;&lt;[Se Activo SOAT]&gt;&gt;</p>
+                    <p><b>Fecha de Ingreso:</b> &lt;&lt;[Fecha Ingreso]&gt;&gt;</p>
+                    <p><b>Centro Médico Asignado:</b> &lt;&lt;[clinica]&gt;&gt;</p>
+                    <p><b>Diagnóstico:</b> “&lt;&lt;[Diagnostico]&gt;&gt;”</p>
+                    <hr> 
+                        &lt;&lt;End&gt;&gt;
+                </p> 
+                &lt;&lt;EndIf&gt;&gt;
+            </p> 
+            <p>&lt;&lt;If:COUNT([LESIONADOS])=0&gt;&gt; No se reportaron personas lesionadas en este incidente. &lt;&lt;EndIf&gt;&gt; </p>
+            <h3>1.5 VEHICULOS DE TERCEROS</h3>
+            <p> &lt;&lt;If:COUNT([VEHICULO TERCERO])>0&gt;&gt; Se han registrado los siguientes vehículos de terceros involucrados en el incidente:
+                    <p>&lt;&lt;Start:[VEHICULO TERCERO]&gt;&gt;
+                        <table>
+                            <tr>
+                                <th rowspan="1" colspan="2" style="text-align: center">DETALLE DEL VEHICULO</th>
+                            </tr>
+                            <tr>
+                            <th>Fuga del tercero</th>
+                            <td>&lt;&lt;[Se fugo]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Tipo de vehículo</th>
+                            <td>&lt;&lt;[Tipovehiculo]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Placa</th>
+                            <td>&lt;&lt;[Placa]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Marca</th>
+                            <td>&lt;&lt;[Marcaveh]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Modelo</th>
+                            <td>&lt;&lt;[Modelo]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Color</th>
+                            <td>&lt;&lt;[Color del Vehiculo]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Conductor</th>
+                            <td>&lt;&lt;[Nombre de Conductor]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Teléfono de contacto</th>
+                            <td>&lt;&lt;[Telefono]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Transacción</th>
+                            <td>&lt;&lt;[Transaccion]&gt;&gt;</td>
+                            </tr>
+                            <tr>
+                            <th>Tipo de acuerdo</th>
+                            <td>&lt;&lt;[Acuerdo]&gt;&gt;</td>
+                            </tr>
+                        </table>
+                    <p><b>Manifestación del afectado:</b> &lt;&lt;[Manifestacion]&gt;&gt;</p>
+                    <hr />
+                    &lt;&lt;End&gt;&gt;
+                    </p>
+                    Toda la información registrada contribuye al seguimiento del caso y a la gestión de posibles acuerdos entre las partes involucradas. &lt;&lt;EndIf&gt;&gt;
+            </p>
+            <p> &lt;&lt;If:COUNT([VEHICULO TERCERO])=0&gt;&gt; No se registraron vehículos de terceros afectados en este incidente.
+                &lt;&lt;EndIf&gt;&gt;
+            </p>
+            <h3>1.6 DATOS DE INTERVENCIÓN POLICIAL</h3>
+            <p><b>Hubo intervención policial:</b> &lt;&lt;[Intervencion Policial]&gt;&gt; </p>
+            <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])>0&gt;&gt; Se registraron las siguientes intervenciones policiales:
+                <p>&lt;&lt;Start:[OPERACION POLICIAL]&gt;&gt;
                     <table >
                         <tr>
-                        <th>Documento</th>
-                        <td>&lt;&lt;[Nombre]&gt;&gt;</td>
+                        <th><span>Prueba de dosaje etílico realizada</span></th>
+                        <td><span>&lt;&lt;[Prueba de Dosaje]&gt;&gt;</span></td>
                         </tr>
                         <tr>
-                            <th>Fecha de emisión</th>
-                            <td>&lt;&lt;[Fecha Emision]&gt;&gt;</td>
+                        <th><span>Técnico de tránsito a cargo</span></th>
+                        <td>&lt;&lt;[Tecnico de Transito]&gt;&gt;</td>
                         </tr>
                         <tr>
-                            <th>Estado actual</th>
-                            <td>&lt;&lt;[Estado]&gt;&gt;</td>
+                        <th><span>Comisaría responsable</span></th>
+                        <td>&lt;&lt;[Comisaria]&gt;&gt;</td>
                         </tr>
                     </table>
-                    <p><strong>Observaciones:</strong> &lt;&lt;[Observacion]&gt;&gt; </p>
-                    <hr />
+                    <p> &lt;&lt;If:COUNT([DOCUMENTO POLICIAL])>0&gt;&gt; Además, se registraron los siguientes documentos policiales:
+                            <p> &lt;&lt;Start:[DOCUMENTO POLICIAL]&gt;&gt;
+                                <table >
+                                    <tr>
+                                    <th>Documento</th>
+                                    <td>&lt;&lt;[Nombre]&gt;&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fecha de emisión</th>
+                                        <td>&lt;&lt;[Fecha Emision]&gt;&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Estado actual</th>
+                                        <td>&lt;&lt;[Estado]&gt;&gt;</td>
+                                    </tr>
+                                </table>
+                                <p><b>Observaciones:</b> &lt;&lt;[Observacion]&gt;&gt; </p>
+                                <hr />
+                                &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p> &lt;&lt;If:COUNT([DOCUMENTO POLICIAL])=0&gt;&gt; No se registraron documentos policiales relacionados con la intervención. 
+                    &lt;&lt;EndIf&gt;&gt; </p>
                     &lt;&lt;End&gt;&gt;
                 </p>
                 &lt;&lt;EndIf&gt;&gt;
-          </p>
-          <p> &lt;&lt;If:COUNT([DOCUMENTO POLICIAL])=0&gt;&gt; No se registraron documentos policiales relacionados con la intervención. 
-          &lt;&lt;EndIf&gt;&gt; </p>
-        &lt;&lt;End&gt;&gt;
-      </p>
-      &lt;&lt;EndIf&gt;&gt;
-  </p>
-  <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])=0&gt;&gt; No se tiene ningún registro de intervención policial en este incidente.
-  &lt;&lt;EndIf&gt;&gt;</p> 
-<h3>6. DETALLE DE LA GESTIÓN DEL SUPERVISOR</h3>
-  <p>&lt;&lt;If:COUNT([GESTION SUPERVISOR])>0&gt;&gt; Se han registrado las siguientes gestiones realizadas por el supervisor:
-        <table>
-                <tr>
-                    <th>Hora de Inicio</th>
-                    <th>Hora de Fin</th>
-                    <th>Acciones</th>
-                    <th>Supervisor</th>
-                </tr>
-                &lt;&lt;Start: [GESTION SUPERVISOR]&gt;&gt;
-                <tr>
-                    <td>&lt;&lt;[Hora de Inicio]&gt;&gt;</td>
-                    <td>&lt;&lt;[Hora de Fin]&gt;&gt;</td>
-                    <td>&lt;&lt;[tipogestion]&gt;&gt;</td>
-                    <td>&lt;&lt;[super]&gt;&gt; </td>
-                </tr>
-                &lt;&lt;End&gt;&gt;
-        </table>
-        <p>Cada una de estas gestiones ha sido documentada para su respectiva
-        evaluación y seguimiento.</p>
-        &lt;&lt;EndIf&gt;&gt;
-  </p>
-  <p> &lt;&lt;If:COUNT([GESTION SUPERVISOR])=0&gt;&gt; No se registraron gestiones realizadas por el supervisor en este
-      incidente. &lt;&lt;EndIf&gt;&gt; </p>
-
-      <h2>ANALISIS DE LOS HECHOS DEL SINIESTRO</h2><br>
-  <h3>1. CAUSA DEL EVENTO</h3>
-  <p> &lt;&lt;Start: [Related causaSiniestros]&gt;&gt; De acuerdo al análisis del área de siniestralidad, se ha determinado que
-    la causa principal de este incidente se debe a &lt;&lt;[CausaPrincipal]&gt;&gt;  &lt;&lt;[Descripcion]&gt;&gt;
-  &lt;&lt;End&gt;&gt;</p><br>
-  <h3>2. FASES DEL EVENTO</h3>
-  <div class="fases">
-    <div class="fase"><b>Fase Previa del Evento:</b> Situación normal en las que no se esperan conductas subestándares por parte de los conductores.</div>
-    <div class="fase"><b>Fase de Discontinuidad:</b> Cuando la situación normal se ve interrumpida por un comportamiento subestándar.</div>
-    <div class="fase"><b>Fase Acciones de Emergencia:</b> Acciones tomadas desde la discontinuidad hasta la ocurrencia del accidente.</div>
-    <div class="fase"><b>Fase de Investigación:</b> Toda vez que se realiza una investigación por parte del área de siniestralidad.</div>
-  </div>
-  <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; <strong> Se realiza Petición de Aclaración:</strong> &lt;&lt;[Realizara GestionPA]&gt;&gt; &lt;&lt;End&gt;&gt; </p>
-    <!---<p>&lt;&lt;Start:[PA]&gt;&gt; <strong>Código de PA:</strong> &lt;&lt;[Codigo PA]&gt;&gt; &lt;&lt;End&gt;&gt;</p>  --->
-  <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; <strong>Se Realizó Entrevista de Colisión:</strong> &lt;&lt;[Realizara EntrevistaColision]&gt;&gt; &lt;&lt;End&gt;&gt;</p>
- <!--- <p> &lt;&lt;Start:[PA]&gt;&gt; <strong>Conclusión PA:</strong> &lt;&lt;[Conclusión PA]&gt;&gt; &lt;&lt;End&gt;&gt; </p> --->
-
-  <h3>3. ANALISIS DE LAS CONSECUENCIAS </h3>
-  <h4>3.1 COTIZACIÓN DE DAÑOS DEL BUS</h4>
-  <h4>3.2 USUARIOS LESIONADOS</h4>
-  <h4>3.3 TRAMITES REALIZADOS</h4>
-  <h3>4. ANALISIS DE LA PROPUESTA DE SANCIÓN</h3>
-  <h4>4.1 Determinación de Responsabilidad</h4>
-  <h4>4.2 Afectación del Bono</h4>
-  <h4>4.3 Recuperación de los Costos</h4>
-  <h4>4.4 Medida Disciplinaria (Numero de Memo)</h4>
-  <h2>CONCLUSIONES</h2>
-  <p>se concluye lo siguiente:</p>
-  <h2>RECOMENDACIONES</h2>
-  <p>Recomendamos</p>
-  <h2>ANEXOS</h2>
+            </p>
+            <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])=0&gt;&gt; No se tiene ningún registro de intervención policial en este incidente.
+            &lt;&lt;EndIf&gt;&gt;</p> 
+            <h3>1.7 GESTIÓN DEL SUPERVISOR</h3>
+            <p>&lt;&lt;If:COUNT([GESTION SUPERVISOR])>0&gt;&gt; Se han registrado las siguientes gestiones realizadas por el supervisor:
+                <p class="title">ACTIVIDADES REALIZADAS</p> 
+                <table>
+                            <tr>
+                                <th>Hora de Inicio</th>
+                                <th>Hora de Fin</th>
+                                <th>Acciones</th>
+                                <th>Supervisor</th>
+                            </tr>
+                            &lt;&lt;Start: [GESTION SUPERVISOR]&gt;&gt;
+                            <tr>
+                                <td>&lt;&lt;[Hora de Inicio]&gt;&gt;</td>
+                                <td>&lt;&lt;[Hora de Fin]&gt;&gt;</td>
+                                <td>&lt;&lt;[tipogestion]&gt;&gt;</td>
+                                <td>&lt;&lt;[super]&gt;&gt; </td>
+                            </tr>
+                            &lt;&lt;End&gt;&gt;
+                    </table>
+                    <p>Cada una de estas gestiones ha sido documentada para su respectiva
+                    evaluación y seguimiento.</p>
+                    &lt;&lt;EndIf&gt;&gt;
+            </p>
+            <p> &lt;&lt;If:COUNT([GESTION SUPERVISOR])=0&gt;&gt; No se registraron gestiones realizadas por el supervisor en este
+                incidente. &lt;&lt;EndIf&gt;&gt; </p>
+                <p class="title">RESUMEN DE HALLAZGOS</p> 
+                <p> &lt;&lt;If:COUNT([LESIONADOS])>0&gt;&gt; Se registró &lt;&lt;COUNT([LESIONADOS])&gt;&gt; persona(s) lesionada(s) como
+                    consecuencia del incidente. Estas personas recibieron la atención correspondiente conforme a los protocolos establecidos, garantizando una evaluación y asistencia médica adecuada. &lt;&lt;EndIf&gt;&gt;
+                </p>
+                <p> &lt;&lt;If:COUNT([LESIONADOS])=0&gt;&gt; No se reportaron personas
+                    lesionadas en este incidente, asegurando que no fue necesario activar
+                    procedimientos de atención médica. &lt;&lt;EndIf&gt;&gt;
+                </p>
+                <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])>0&gt;&gt; Adicionalmente, se
+                    identificaron &lt;&lt;COUNT([AVERIAS DE BUS])&gt;&gt; daño(s) en el bus
+                    involucrado. Se detallaron las partes afectadas y el tipo de avería
+                    sufrida, permitiendo una evaluación precisa del impacto en la
+                    operatividad del bus. &lt;&lt;EndIf&gt;&gt;
+                </p>
+                <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])=0&gt;&gt; Tras la inspección correspondiente, no se encontraron daños en la unidad involucrada en este incidente, asegurando su continuidad operativa sin afectaciones. &lt;&lt;EndIf&gt;&gt;
+                </p>
+                <h2>2. ANÁLISIS DDE RESPONSABILIDAD</h2>
+            <h3>2.1 CAUSA DEL EVENTO</h3>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
+                                <p> &lt;&lt;If:COUNT([CAUSA SINIESTRO])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[CAUSA SINIESTRO]&gt;&gt;
+                                        El análisis del área de siniestralidad ha concluido que la causa principal de este incidente es &lt;&lt;[Causa Principal]&gt;&gt;,
+                                        atribuida a &lt;&lt;[Descripcion]&gt;&gt;.                                 
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([CAUSA SINIESTRO])=0&gt;&gt; No se han identificado causas registradas para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones asociadas al siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
 
 
-
+            <h3>2.2 FASES DEL EVENTO</h3>
+            <div class="fases">
+                <div class="fase"><b>Fase Previa del Evento:</b> Situación normal en las que no se esperan conductas subestándares por parte de los conductores.</div>
+                <div class="fase"><b>Fase de Discontinuidad:</b> Cuando la situación normal se ve interrumpida por un comportamiento subestándar.</div>
+                <div class="fase"><b>Fase Acciones de Emergencia:</b> Acciones tomadas desde la discontinuidad hasta la ocurrencia del accidente.</div>
+                <div class="fase"><b>Fase de Investigación:</b> Toda vez que se realiza una investigación por parte del área de siniestralidad.</div>
+            </div>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; &lt;&lt;[Realizara Gestion PA]&gt;&gt; se ha realizado la gestión de PA con el código:
+                                <p> &lt;&lt;If:COUNT([PA])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[PA]&gt;&gt;
+                                        &lt;&lt;[Codigo PA]&gt;&gt; y con la Conclusión: &lt;&lt;[Conclusion PA]&gt;&gt;                                
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([PA])=0&gt;&gt; No se han identificado PA registradas para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones sobre la PA asociadas al siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; &lt;&lt;[Realizara Gestion PA]&gt;&gt; se ha realizado la entrevista, con la Conclusión:
+                                <p> &lt;&lt;If:COUNT([ENTREVISTA])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[ENTREVISTA]&gt;&gt;
+                                        &lt;&lt;[Conclusiones]&gt;&gt; cabe mencionar que el conductor indica ser &lt;&lt;[Responsabilidad que Indica Conductor]&gt;&gt;.                             
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([ENTREVISTA])=0&gt;&gt; No se han identificado entrevista registrada para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones sobre la entrevista asociadas al siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
         
-     </main> 
-</body>
+            <h2>3. ANALISIS DE LAS CONSECUENCIAS </h2>
+            <h3>3.1 COTIZACIÓN DE DAÑOS DEL BUS</h3>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; 
+                                <p> &lt;&lt;If:COUNT([RESPONSABILIDAD SINIESTRO])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[RESPONSABILIDAD SINIESTRO]&gt;&gt;
+                                        El monto  de la cotización es : &lt;&lt;[Monto]&gt;&gt;                              
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([RESPONSABILIDAD SINIESTRO])=0&gt;&gt; No se encuentra una cotización registrada para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones sobre la cotización asociadas al siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
 
-</html>
+            <h3>3.2 USUARIOS LESIONADOS</h3>
+                    <p>&lt;&lt;If:COUNT([LESIONADOS])>0&gt;&gt; Se registró &lt;&lt;COUNT([LESIONADOS])&gt;&gt; persona(s) lesionada(s) como
+                        consecuencia del incidente. &lt;&lt;EndIf&gt;&gt;
+                    </p> 
+                    <p>&lt;&lt;If:COUNT([LESIONADOS])=0&gt;&gt; No se reportaron personas
+                        lesionadas en este incidente &lt;&lt;EndIf&gt;&gt;
+                    </p>     
+            <h3>3.3 TRAMITES REALIZADOS</h3>
+                    <p><b>Hubo intervención policial:</b> &lt;&lt;[Intervencion Policial]&gt;&gt; </p>
+
+            <h2>4. ANALISIS DE LA PROPUESTA DE SANCIÓN</h2>
+            <h3>4.1 Determinación de Responsabilidad</h3>
+                <div class="fases">
+                    <div class="fase"><b>Cantidad de días a suspender :</b> Para obtener la cantidad de días a suspender se analiza el MESES EN LA EMPRESA y la MAGNITUD DEL ACCIDENTE.</div>
+                </div>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; Según el análisis del siniestro, se ha determinado que es un accidente con culpa del conductor, lo que lo clasifica en:
+                                <p> &lt;&lt;If:COUNT([RESPONSABILIDAD SINIESTRO])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[RESPONSABILIDAD SINIESTRO]&gt;&gt;
+                                        <p>- <b>Factor de responsabilidad:</b> &lt;&lt;[Factor]&gt;&gt;</p>
+                                        <p>- <b>Categoría:</b> &lt;&lt;[Categoria]&gt;&gt;</p>
+                                        <p>- <b>Tiempo del conductor en la empresa:</b> &lt;&lt;[Tiempo]&gt;&gt;</p>
+                                        <p>- <b>Magnitud del accidente (Ratio):</b> &lt;&lt;[Ratio]&gt;&gt;</p>                                 
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([RESPONSABILIDAD SINIESTRO])=0&gt;&gt; No se ha registrado información sobre la responsabilidad del siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;No se han identificado gestiones relacionadas con el factor, categoría o ratio del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
+
+            <h3>4.2 Afectación del Bono</h3>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
+                                <p> &lt;&lt;If:COUNT([PROPUESTA DE SANCION])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[PROPUESTA DE SANCION]&gt;&gt;
+                                        El bono &lt;&lt;[Bono]&gt;&gt; es afectado.                                  
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([PROPUESTA DE SANCION])=0&gt;&gt; No se encuentra la afectación del bono registrada para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones del bono del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p>
+            <h3>4.3 Recuperación de los Costos</h3>
+                <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
+                                <p> &lt;&lt;If:COUNT([RESPONSABILIDAD SINIESTRO])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[RESPONSABILIDAD SINIESTRO]&gt;&gt;
+                                    El costo recuperaciónasiende a &lt;&lt;[Monto]&gt;&gt; Soles.
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([RESPONSABILIDAD SINIESTRO])=0&gt;&gt; No se encuentra gestión costo recuperación registrada para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones sobre el costo de recuperación del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
+
+            <h3>4.4 Medida Disciplinaria (Numero de Memo)</h3>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; Se le hizo un memo con el código:
+                                <p> &lt;&lt;If:COUNT([PROPUESTA DE SANCION])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[PROPUESTA DE SANCION]&gt;&gt;
+                                    &lt;&lt;[Memo]&gt;&gt;                                
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                                <p> &lt;&lt;If:COUNT([PROPUESTA DE SANCION])=0&gt;&gt; No se encuentra el código de memo para este siniestro en el sistema.
+                                &lt;&lt;EndIf&gt;&gt; </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones memo del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p>
+            <h2>5. CONCLUSIONES</h2>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; Según todo lo expuesto se concluye :
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; 
+                            &lt;&lt;[Conclusion]&gt;&gt; 
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado ninguna conclusión del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p>
+            <h2>6. RECOMENDACIONES</h2>
+                <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt;Se recomienda :
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; 
+                            &lt;&lt;[Recomendacion]&gt;&gt; 
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado ninguna recomendación del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p>
+            <h2>7. ANEXOS</h2>
+                ANEXO DAÑOS DE BUS  
+                <p>&lt;&lt;Start:[AVERIAS DE BUS]&gt;&gt; 
+                    <p>&lt;&lt;If:ISNOTBLANK([Imagen])&gt;&gt;  
+                        &lt;&lt;[parte]&gt;&gt;
+                        &lt;&lt;[Imagen]&gt;&gt;
+                        &lt;&lt;EndIf&gt;&gt;
+                    </p> 
+                    &lt;&lt;End&gt;&gt;
+                </p>  
+
+
+                <p>&lt;&lt;If: COUNT([LESIONADOS]) > 0&gt;&gt;  
+                    ANEXO LESIONADOS  
+                    <p>&lt;&lt;Start:[LESIONADOS]&gt;&gt;  
+                        <p>&lt;&lt;If:ISNOTBLANK([Foto])&gt;&gt;
+                            FOTO  
+                            &lt;&lt;[Foto]&gt;&gt;
+                            &lt;&lt;EndIf&gt;&gt;
+                        </p>  
+                        <p>&lt;&lt;If:ISNOTBLANK([Adjunto Acta de Retiro])&gt;&gt;  
+                            ACTA DE RETIRO 
+                            &lt;&lt;[Adjunto Acta de Retiro]&gt;&gt;
+                            &lt;&lt;EndIf&gt;&gt;
+                        </p>  
+                        &lt;&lt;End&gt;&gt;
+                    </p>   
+                    &lt;&lt;EndIf&gt;&gt;
+                </p> 
+                <p>&lt;&lt;If:COUNT([VEHICULO TERCERO])>0&gt;&gt; 
+                    ANEXO VEHICULOS DE TERCERO  
+                    <p>&lt;&lt;Start:[VEHICULO TERCERO]&gt;&gt; 
+                        <p>&lt;&lt;If:ISNOTBLANK([Parte Frontal])&gt;&gt;  
+                            FOTO LICENCIA 
+                            &lt;&lt;[Parte Frontal]&gt;&gt;
+                            &lt;&lt;[Parte Posterior]&gt;&gt;
+                            &lt;&lt;EndIf&gt;&gt;
+                        </p>
+                        <p>&lt;&lt;If:ISNOTBLANK([Imagen  1])&gt;&gt; 
+                            FOTO VEHICULO 
+                            &lt;&lt;[Imagen  1]&gt;&gt;
+                            &lt;&lt;[Imagen 2]&gt;&gt;
+                            &lt;&lt;EndIf&gt;&gt; 
+                        </p>
+                        &lt;&lt;End&gt;&gt;
+                    </p> 
+                &lt;&lt;EndIf&gt;&gt;
+                </p>
+                <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])>0&gt;&gt;  
+                    ANEXO DOCUMENTOS POLICIALES  
+                    <p>&lt;&lt;Start:[OPERACION POLICIAL]&gt;&gt; 
+                        <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])>0&gt;&gt;  
+                            <p>&lt;&lt;Start:[DOCUMENTO POLICIAL]&gt;&gt;  
+                                    <p>&lt;&lt;If:ISNOTBLANK([Adjunta el Archivo])&gt;&gt;  
+                                    &lt;&lt;[Nombre]&gt;&gt;  
+                                    &lt;&lt;[Adjunta el Archivo]&gt;&gt;  
+                                    &lt;&lt;EndIf&gt;&gt;
+                                    </p>
+                                    &lt;&lt;End&gt;&gt;
+                            </p> 
+                            &lt;&lt;EndIf&gt;&gt;
+                        </p> 
+                        &lt;&lt;End&gt;&gt; 
+                    </p>
+                    &lt;&lt;EndIf&gt;&gt;
+                </p>
+                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
+                                <p> &lt;&lt;If:COUNT([PA])>0&gt;&gt; 
+                                    <p> &lt;&lt;Start:[PA]&gt;&gt; PA
+                                        &lt;&lt;[Adjunta PA]&gt;&gt;                             
+                                    &lt;&lt;End&gt;&gt;
+                                    </p>
+                                    &lt;&lt;EndIf&gt;&gt;
+                                </p>
+                            &lt;&lt;End&gt;&gt;
+                            </p>
+                            &lt;&lt;EndIf&gt;&gt;
+                    </p>
+
+
+                    
+                </main> 
+            </body>
+        
+        </html>
