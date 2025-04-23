@@ -46,7 +46,6 @@ img, video, svg { height: auto; max-width: 100%; }
   padding: 0;
   margin: 0;
   text-align: justify; /* Justificar el texto */
-  border:10px solid purple;
 }
 
 /* Contenedor principal centrado */
@@ -266,21 +265,3 @@ p {
   color: #2C7ABA;
   width: 50px;
 }
-
-  /*
-  ul {
-      padding: 0;
-      margin: 0;
-  
-    }
-    
-    ul li {
-      list-style: none;
-      padding: 5px 10px;
-      margin: 5px 0;
-      background: #f4f4f4;
-      border-left: 5px solid var(--primary-10);
-      border-radius: 4px;
-      color: var(--primary-10);
-      font-weight:bold ;
-    }*/

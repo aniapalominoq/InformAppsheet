@@ -362,7 +362,7 @@
                 </p>
                 <p> &lt;&lt;If:COUNT([AVERIAS DE BUS])=0&gt;&gt; Tras la inspección correspondiente, no se encontraron daños en la unidad involucrada en este incidente, asegurando su continuidad operativa sin afectaciones. &lt;&lt;EndIf&gt;&gt;
                 </p>
-                <h2>2. ANÁLISIS DDE RESPONSABILIDAD</h2>
+                <h2>2. ANÁLISIS DE RESPONSABILIDAD</h2>
             <h3>2.1 CAUSA DEL EVENTO</h3>
                     <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
                             <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
@@ -423,7 +423,7 @@
                     </p>
                     <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones sobre la entrevista asociadas al siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
         
-            <h2>3. ANALISIS DE LAS CONSECUENCIAS </h2>
+            <h2>3. ANÁLISIS DE LAS CONSECUENCIAS </h2>
             <h3>3.1 COTIZACIÓN DE DAÑOS DEL BUS</h3>
                     <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
                             <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; 
@@ -452,7 +452,7 @@
             <h3>3.3 TRAMITES REALIZADOS</h3>
                     <p><b>Hubo intervención policial:</b> &lt;&lt;[Intervencion Policial]&gt;&gt; </p>
 
-            <h2>4. ANALISIS DE LA PROPUESTA DE SANCIÓN</h2>
+            <h2>4. ANÁLISIS DE LA PROPUESTA DE SANCIÓN</h2>
             <h3>4.1 Determinación de Responsabilidad</h3>
                 <div class="fases">
                     <div class="fase"><b>Cantidad de días a suspender :</b> Para obtener la cantidad de días a suspender se analiza el MESES EN LA EMPRESA y la MAGNITUD DEL ACCIDENTE.</div>
@@ -512,7 +512,7 @@
                     </p>
                     <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado gestiones sobre el costo de recuperación del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p> 
 
-            <h3>4.4 Medida Disciplinaria (Numero de Memo)</h3>
+            <h3>4.4 Medida Disciplinaria (Número de Memo)</h3>
                     <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
                             <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt; Se le hizo un memo con el código:
                                 <p> &lt;&lt;If:COUNT([PROPUESTA DE SANCION])>0&gt;&gt; 
@@ -548,28 +548,26 @@
                     </p>
                     <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])=0&gt;&gt;  No se han identificado ninguna recomendación del siniestro analizado. &lt;&lt;EndIf&gt;&gt;</p>
             <h2>7. ANEXOS</h2>
-                ANEXO DAÑOS DE BUS  
+                <h3>ANEXO DAÑOS DE BUS</h3>  
                 <p>&lt;&lt;Start:[AVERIAS DE BUS]&gt;&gt; 
                     <p>&lt;&lt;If:ISNOTBLANK([Imagen])&gt;&gt;  
-                        &lt;&lt;[parte]&gt;&gt;
-                        &lt;&lt;[Imagen]&gt;&gt;
+                        <p class="title">&lt;&lt;[parte]&gt;&gt;</p>
+                        <div class="img">&lt;&lt;[Imagen]&gt;&gt;</div>
                         &lt;&lt;EndIf&gt;&gt;
                     </p> 
                     &lt;&lt;End&gt;&gt;
                 </p>  
-
-
                 <p>&lt;&lt;If: COUNT([LESIONADOS]) > 0&gt;&gt;  
-                    ANEXO LESIONADOS  
+                    <h3>ANEXO LESIONADOS</h3>   
                     <p>&lt;&lt;Start:[LESIONADOS]&gt;&gt;  
                         <p>&lt;&lt;If:ISNOTBLANK([Foto])&gt;&gt;
-                            FOTO  
-                            &lt;&lt;[Foto]&gt;&gt;
+                            <p class="title">FOTO</p>
+                            <div class="img">&lt;&lt;[Foto]&gt;&gt;</div>
                             &lt;&lt;EndIf&gt;&gt;
                         </p>  
                         <p>&lt;&lt;If:ISNOTBLANK([Adjunto Acta de Retiro])&gt;&gt;  
-                            ACTA DE RETIRO 
-                            &lt;&lt;[Adjunto Acta de Retiro]&gt;&gt;
+                            <p class="title">ACTA DE RETIRO </p>
+                            <div class="img">&lt;&lt;[Adjunto Acta de Retiro]&gt;&gt;</div>
                             &lt;&lt;EndIf&gt;&gt;
                         </p>  
                         &lt;&lt;End&gt;&gt;
@@ -577,18 +575,18 @@
                     &lt;&lt;EndIf&gt;&gt;
                 </p> 
                 <p>&lt;&lt;If:COUNT([VEHICULO TERCERO])>0&gt;&gt; 
-                    ANEXO VEHICULOS DE TERCERO  
+                    <h3>ANEXO VEHICULOS DE TERCERO </h3>
                     <p>&lt;&lt;Start:[VEHICULO TERCERO]&gt;&gt; 
                         <p>&lt;&lt;If:ISNOTBLANK([Parte Frontal])&gt;&gt;  
-                            FOTO LICENCIA 
-                            &lt;&lt;[Parte Frontal]&gt;&gt;
-                            &lt;&lt;[Parte Posterior]&gt;&gt;
+                        <p class="title">FOTO LICENCIA</p>
+                        <div class="img">&lt;&lt;[Parte Frontal]&gt;&gt;</div>
+                        <div class="img">&lt;&lt;[Parte Posterior]&gt;&gt;</div>
                             &lt;&lt;EndIf&gt;&gt;
                         </p>
                         <p>&lt;&lt;If:ISNOTBLANK([Imagen  1])&gt;&gt; 
-                            FOTO VEHICULO 
-                            &lt;&lt;[Imagen  1]&gt;&gt;
-                            &lt;&lt;[Imagen 2]&gt;&gt;
+                            <p class="title">FOTO VEHICULO </p>
+                            <div class="img">&lt;&lt;[Imagen  1]&gt;&gt;</div>
+                            <div class="img">&lt;&lt;[Imagen 2]&gt;&gt;</div>
                             &lt;&lt;EndIf&gt;&gt; 
                         </p>
                         &lt;&lt;End&gt;&gt;
@@ -596,13 +594,13 @@
                 &lt;&lt;EndIf&gt;&gt;
                 </p>
                 <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])>0&gt;&gt;  
-                    ANEXO DOCUMENTOS POLICIALES  
+                    <h3>ANEXO DOCUMENTOS POLICIALES</h3>
                     <p>&lt;&lt;Start:[OPERACION POLICIAL]&gt;&gt; 
                         <p>&lt;&lt;If:COUNT([OPERACION POLICIAL])>0&gt;&gt;  
                             <p>&lt;&lt;Start:[DOCUMENTO POLICIAL]&gt;&gt;  
                                     <p>&lt;&lt;If:ISNOTBLANK([Adjunta el Archivo])&gt;&gt;  
-                                    &lt;&lt;[Nombre]&gt;&gt;  
-                                    &lt;&lt;[Adjunta el Archivo]&gt;&gt;  
+                                    <p class="title">&lt;&lt;[Nombre]&gt;&gt;</p> 
+                                    <div class="img">&lt;&lt;[Adjunta el Archivo]&gt;&gt; </div>  
                                     &lt;&lt;EndIf&gt;&gt;
                                     </p>
                                     &lt;&lt;End&gt;&gt;
@@ -613,23 +611,20 @@
                     </p>
                     &lt;&lt;EndIf&gt;&gt;
                 </p>
-                    <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
-                            <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
-                                <p> &lt;&lt;If:COUNT([PA])>0&gt;&gt; 
-                                    <p> &lt;&lt;Start:[PA]&gt;&gt; PA
-                                        &lt;&lt;[Adjunta PA]&gt;&gt;                             
-                                    &lt;&lt;End&gt;&gt;
-                                    </p>
-                                    &lt;&lt;EndIf&gt;&gt;
-                                </p>
-                            &lt;&lt;End&gt;&gt;
+                <p>&lt;&lt;If:COUNT([GESTION SINIESTRO])>0&gt;&gt; 
+                    <p>&lt;&lt;Start:[GESTION SINIESTRO]&gt;&gt;
+                        <p> &lt;&lt;If:COUNT([PA])>0&gt;&gt; 
+                            <p> &lt;&lt;Start:[PA]&gt;&gt;
+                                <p class="title">PA</p>
+                                <div class="img">&lt;&lt;[Adjunta PA]&gt;&gt; </div>                            
+                                &lt;&lt;End&gt;&gt;
                             </p>
-                            &lt;&lt;EndIf&gt;&gt;
+                        &lt;&lt;EndIf&gt;&gt;
+                        </p>
+                        &lt;&lt;End&gt;&gt;
                     </p>
-
-
-                    
-                </main> 
-            </body>
-        
-        </html>
+                &lt;&lt;EndIf&gt;&gt;
+                </p>
+        </main> 
+    </body>
+</html>
